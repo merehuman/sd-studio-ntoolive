@@ -6156,7 +6156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8ad56ec20fdae349a942701deb2f3e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LiveServerHostIP: 192.168.0.19
+  LiveServerHostIP: 172.18.54.97
   LiveServerHostPort: 802
   ConnectOnPlay: 1
   ReconnectOnLostConnection: 1
@@ -6172,9 +6172,9 @@ MonoBehaviour:
       Expressions: []
   EnableRecording: 1
   RecordOnStart: 0
-  ClipToWriteTo: {fileID: 0}
+  ClipToWriteTo: {fileID: 7400000, guid: 7238963b53f2a2341899d57162b12401, type: 2}
   Recording: 0
-  KeyframeOnNewData: 0
+  KeyframeOnNewData: 1
 --- !u!95 &8732422187399490690
 Animator:
   serializedVersion: 3
@@ -6185,7 +6185,7 @@ Animator:
   m_GameObject: {fileID: 8732422187399490688}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e6b28b34743d375479a5a155d64ce8db, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
